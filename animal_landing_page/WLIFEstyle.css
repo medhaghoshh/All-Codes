@@ -7,7 +7,7 @@ body {
 
 nav {
     background-color: #00796b;
-    /* padding: 10px; */
+    padding: 10px; 
     text-align: center;
     position: fixed;
     top: 0;
@@ -21,7 +21,7 @@ nav {
 nav div{
     display: inline-block;
 }
-nav a, nav div {
+nav a{
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -30,10 +30,7 @@ nav a, nav div {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-nav a {
-    padding: 0px;
-    
-}
+
 
 nav a:hover {
     background-color: #004d40;
@@ -118,7 +115,7 @@ h2 {
 
 .card-content {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(244, 245, 244, 0.933);
     border-radius: 0 0 10px 10px;
     position: relative;
     overflow: hidden;
@@ -448,6 +445,7 @@ button{
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    margin-right: 30px;
 }
 
 button:hover{
