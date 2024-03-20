@@ -74,13 +74,19 @@ nav a:hover {
     text-align: center;
     background-color: #f5f5f5;
     padding: 50px 0;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 h2 {
     text-align: center;
     font-size: 40px; 
     color: #333;
-    margin-bottom: 30px;
+    margin: 30px 0px;
 }
 
 .card-flex {
@@ -206,6 +212,11 @@ h2 {
     text-align: center;
     background-color: #f5f5f5;
     padding: 50px 0;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-content {
@@ -424,11 +435,11 @@ footer a:hover {
 }
  /*.............................*/
 
-.search-container{
+ .search-container{
     /* margin-top: 20px; */
     text-align: center;
     display: inline-block;
-}
+} 
 
 input[type="text"]{
     padding: 8px;
@@ -438,7 +449,7 @@ input[type="text"]{
 }
 
 button{
-    padding: 8px 16px;
+    padding: 7px 12px;
     background-color: #12652082;
     color: #fff;
     border: none;
@@ -450,4 +461,73 @@ button{
 
 button:hover{
     background-color: #03b300;
+}   
+
+
+/*.............................*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    /* background-image: linear-gradient( rgba(243, 252, 243, 0.9),rgba(217, 243, 213, 0.9)), url("https://www.dreamstime.com/royalty-free-stock-images-different-animals-collage-image27167509"); */
+    background-image: linear-gradient( rgba(243, 252, 243, 0.2),rgba(217, 243, 213, 0.2)), url("https://i.pinimg.com/originals/b1/0c/e9/b10ce93091271274b84db46aed9b8892.jpg");
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 0px 15px;
+    
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    /* color: #cac7ff; */
+    color: rgb(81, 81, 81);
+}
+
+
+#Search_Icon_Img img {
+    width: 21px;
+}
+
+.LOGOG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LOGOG img {
+    width: 50px;    
+
+}
+.LOGOG a {
+    /* padding-left: 0; */
+
+    margin-left: 0;
+}
+.LOGOG a:hover {
+    background-color: transparent;
 }
