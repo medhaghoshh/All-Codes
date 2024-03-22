@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="WLIFEstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>WLIFE</title>
 </head>
 
-<body>
-    <nav>
+<body id="body">
+    <nav class="navv">
         <div class="LOGOG">
             <img src="https://www.pngitem.com/pimgs/m/210-2105734_paw-logo-transparent-dog-paw-print-hd-png.png"
                 alt="Logo">
             <a href="#home" class="logo">WLIFE</a>
         </div>
-        <div>
+        <button type="button" id="gg" onclick="h();">
+            <div class="icc" id="ON_CL"><i class="fa fa-angle-down iconn" style="font-size:36px"></i></div>
+        </button>
+        <div id="ON_CL1" class="Navvv">
             <a href="#home">Home</a>
             <a href="#explore">Explore</a>
             <a href="#gallery">Gallery</a>
@@ -251,5 +255,29 @@
             <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
         </div>
     </footer>
+    <script>
+        let d = document.getElementById("ON_CL1");
+        function h(){
+
+            // let a = document.getElementById("ON_CL");
+            
+            console.log("j")
+            // a.addEventListener('onclick', () =>{
+            d.style.display = "flex";
+            console.log("Clicked");
+            
+            // });
+            
+        };
+        if(d.style.display !== "none"){
+            d.addEventListener("click", () => {
+                d.style.display = "none";
+                console.log("D")
+            })
+
+
+
+        }
+    </script>
 </body>
 </html>

@@ -405,10 +405,7 @@ footer a:hover {
     .image-info {
         text-align: center; 
     }
-}
 
-
-@media screen and (max-width: 768px) {
     .about-content {
         flex-direction: column; 
         align-items: center; 
@@ -417,10 +414,6 @@ footer a:hover {
     .author-image {
         margin-bottom: 20px; 
     }
-}
-
-
-@media screen and (max-width: 768px) {
     .contact-form {
         flex-direction: column; 
         align-items: center; 
@@ -533,4 +526,55 @@ button:hover{
 }
 .LOGOG a:hover {
     background-color: transparent;
+}
+
+
+@media screen and (max-width:920px){
+    .navv {
+        
+        flex-direction: column;
+    }
+
+    .LOGOG {
+        margin-bottom: 10px;
+    }
+
+    .LOGOG img{ 
+        width: 25px;       
+
+    }
+    .Navvv {
+        margin-bottom: 10px;
+    }
+}
+
+.icc {
+    cursor: pointer;
+    display: none;
+}
+
+#gg{
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .Navvv { 
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icc {
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+    /* #ON_CL1 {
+        display: none;
+    } */
+
+
 }
