@@ -256,28 +256,32 @@
         </div>
     </footer>
     <script>
-        let d = document.getElementById("ON_CL1");
-        function h(){
+        let a = screen.width;
+        if(a < 769){
 
-            // let a = document.getElementById("ON_CL");
-            
-            console.log("j")
-            // a.addEventListener('onclick', () =>{
-            d.style.display = "flex";
-            console.log("Clicked");
-            
-            // });
-            
-        };
-        if(d.style.display !== "none"){
-            d.addEventListener("click", () => {
-                d.style.display = "none";
-                console.log("D")
-            })
-
-
-
-        }
+            let d = document.getElementById("ON_CL1");
+            function h(){
+                
+                // let a = document.getElementById("ON_CL");
+                
+                console.log("j")
+                // a.addEventListener('onclick', () =>{
+                    d.style.display = "flex";
+                    console.log("Clicked");
+                    
+                    // });
+                    
+            };
+            if(d.style.display !== "none"){
+                d.addEventListener("click", () => {
+                    d.style.display = "none";
+                    console.log("D")
+                })
+                
+                
+                
+            }
+            }
     </script>
 </body>
 </html>
