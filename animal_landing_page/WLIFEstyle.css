@@ -502,6 +502,7 @@ button:hover{
     font-size: 20px;
     /* color: #cac7ff; */
     color: rgb(81, 81, 81);
+    width: 90%;
 }
 
 
@@ -577,4 +578,12 @@ button:hover{
     } */
 
 
+}
+
+
+@media screen and (max-width: 450px) {
+    .form-fields {
+        margin-right: 0px;
+    }
+    
 }
