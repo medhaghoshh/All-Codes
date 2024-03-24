@@ -264,6 +264,7 @@ h2 {
     text-align: center;
     background-color: #f9f9f9;
     padding: 50px 0;
+    margin-left: 25px;
 }
 
 .contact-form {
@@ -327,6 +328,7 @@ footer {
     color: #fff;
     padding: 10px 15px;
     text-align: center;
+    /* margin-top: 350px; */
 }
 
 footer p {
@@ -409,6 +411,7 @@ footer a:hover {
     .about-content {
         flex-direction: column; 
         align-items: center; 
+        padding-top: 10px;
     }
 
     .author-image {
@@ -528,6 +531,7 @@ button:hover{
     background-color: transparent;
 }
 
+/*.........................*/
 
 @media screen and (max-width:920px){
     .navv {
@@ -578,3 +582,50 @@ button:hover{
 
 
 }
+
+/* @media screen and (max-width: 500px){
+    .margin-top {
+        margin-top: 420px;
+        background-color: white;
+    }
+    #explore {
+        position: relative;
+        top: 195px;
+    }
+    #explore h2{
+        background-color: white;
+        width: 100%;
+    }
+    #gallery {
+        position: relative;
+        top: 500px;
+    }
+    #gallery h2{
+        background-color: white;
+        width: 100%;
+    }
+    #search {
+        position: relative;
+        top: 500px;
+    }
+    #search h2{
+        background-color: white;
+        width: 100%;
+    }
+    #about {
+        position: relative;
+        top: 250px;
+    }
+    #about h2{
+        background-color: white;
+        width: 100%;
+    }
+    #contact {
+        position: relative;
+        top: 350px;
+    }
+    #contact h2{
+        background-color: white;
+        width: 100%;
+    }
+} */
