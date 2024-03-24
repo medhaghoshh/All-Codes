@@ -585,3 +585,9 @@ button:hover{
     }
     
 }
+@media screen and (max-width: 420px) {
+
+    #about h2{
+        padding-top: 100px;
+    }
+}
