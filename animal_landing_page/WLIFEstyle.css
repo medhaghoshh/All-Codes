@@ -374,6 +374,19 @@ footer a:hover {
     .home-quote {
         font-size: 14px;
     }
+    #explore h2 {
+        margin: 156px 0 0 0;
+        background-color: white;
+        width: 100%;
+        padding: 30px 0 30px 0;
+        
+        position: relative;
+        top: 30px;
+    }
+    .card, .card-flex {
+    
+        background-color: white;
+    }
 
     #home {
         background-size: contain;
