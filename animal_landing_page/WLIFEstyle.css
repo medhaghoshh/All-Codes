@@ -599,8 +599,15 @@ button:hover{
     
 }
 @media screen and (max-width: 420px) {
-
+    
     #about h2{
         padding-top: 100px;
+    }
+}
+@media screen and (max-width: 430px) {
+    #contact {
+        position: relative;
+        top: 44px;
+    
     }
 }
