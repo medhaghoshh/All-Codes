@@ -610,4 +610,9 @@ button:hover{
         top: 44px;
     
     }
+    footer {
+        position: relative;
+        top: 10px;
+    }
+    }
 }
