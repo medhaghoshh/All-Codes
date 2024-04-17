@@ -17,11 +17,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 nav div{
     display: inline-block;
 }
+
 nav a{
     color: white;
     text-decoration: none;
@@ -213,7 +214,7 @@ h2 {
     text-align: center;
     background-color: #f5f5f5;
     padding: 50px 0;
-    height: 750px;
+    /*height: 900px;*/
     display: flex;
     justify-content: end;
     align-items: center;
@@ -259,6 +260,8 @@ h2 {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
+
 
 #contact {
     text-align: center;
@@ -537,7 +540,6 @@ button:hover{
 
 }
 .LOGOG a {
-    /* padding-left: 0; */
 
     margin-left: 0;
 }
@@ -614,5 +616,5 @@ button:hover{
         position: relative;
         top: 10px;
     }
-    }
 }
+
