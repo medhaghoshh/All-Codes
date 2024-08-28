@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE SKETCHER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IMAGE SKETCHER</h1>
+        <form id="uploadForm">
+            <input type="file" id="imageInput" accept="image/*">
+            <button type="submit">Upload and Sketch</button>
+        </form>
+        <div class="image-display">
+            <h2>Original Image</h2>
+            <img id="originalImage" alt="Original Image">
+        </div>
+        <div class="image-display">
+            <h2>Sketch Image</h2>
+            <img id="sketchImage" alt="Sketch Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
